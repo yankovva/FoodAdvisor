@@ -2,7 +2,7 @@
 {
     public static class EntityValidationConstants
     {
-        public static class Place
+        public static class Location
         {
             public const int NameMinLenght = 2;
             public const int NameMaxLenght = 50;

@@ -15,7 +15,7 @@ namespace FoodAdvisor.Data
         {
         }
 
-        public virtual DbSet<Place> Places { get; set; }
+        public virtual DbSet<Location> Locations { get; set; }
         public virtual DbSet<City> Citys { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
 
