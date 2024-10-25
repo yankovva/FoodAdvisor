@@ -12,7 +12,7 @@ namespace FoodAdvisor.Data.Models
 
         [Required]
         [MaxLength(NameMaxLenght)]
-        [Comment("The Name of the city.")]
+        [Comment("The name of the city.")]
         public string Name { get; set; } = null!;
 
         [Comment("A collection of the Places in the cities.")]
