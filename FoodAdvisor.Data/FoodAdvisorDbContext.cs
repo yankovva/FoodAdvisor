@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using FoodAdvisor.Data.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace FoodAdvisor.Data
@@ -13,6 +14,10 @@ namespace FoodAdvisor.Data
             : base(options)
         {
         }
+
+        public virtual DbSet<Place> Places { get; set; }
+        public virtual DbSet<City> Citys { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
