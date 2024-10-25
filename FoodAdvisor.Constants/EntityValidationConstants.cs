@@ -27,6 +27,9 @@
         {
             public const int NameMinLenght = 3;
             public const int NameMaxLenght = 20;
+
+            public const int property = 20;
+
         }
 
     }
